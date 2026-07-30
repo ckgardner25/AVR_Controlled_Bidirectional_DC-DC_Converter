@@ -44,7 +44,7 @@ The AVR generates complementary 100 kHz PWM signals with programmable dead time.
 
 ## PCB Design
 <br><p float="left">
-<img width="420" height="450" alt="rendering" src="Renderings/Overview.png" />
+<img width="500" height="450" alt="rendering" src="Renderings/Overview.png" />
 <img width="400" height="350" alt="rendering" src="Renderings/Bottom.png" />
 </p>
 
