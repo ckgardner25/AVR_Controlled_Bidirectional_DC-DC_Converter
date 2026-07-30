@@ -43,6 +43,7 @@ The AVR generates complementary 100 kHz PWM signals with programmable dead time.
 <img width="420" height="450" alt="schematic" src="Simulations/Schematic-5V_to_12V.png" />
 
 ## PCB Design
+Optimized for a compact 30x32mm footprint to minimize fabrication time and material costs. To ensure signal integrity, the high-voltage switching paths were isolated from the sensitive gate-drive architecture and AVR microcontroller using strategic multi-layer routing, localized ground planes, and dedicated physical keep-out zones to mitigate EMI. 
 <br><p float="left">
 <img width="500" height="450" alt="rendering" src="Renderings/Overview.png" />
 <img width="400" height="350" alt="rendering" src="Renderings/Bottom.png" />
