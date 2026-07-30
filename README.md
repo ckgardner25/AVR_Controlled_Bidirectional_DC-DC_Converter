@@ -6,11 +6,39 @@
 
 • Engineered a 100 kHz complementary PWM control architecture with dead-time insertion for a four-MOSFET synchronous converter, validating gate-drive timing and switching behavior using circuit simulation.
 
-## Block Diagram
+# Specifications
+Input Voltage:
+3.3–5 V
 
+Boost Output:
+12 V
+
+PWM Frequency:
+100 kHz
+
+Inductor:
+122 µH
+
+Peak Output Current:
+4A
+
+Simulated Efficiency:
+96%
+
+Settling Time:
+1.0 ms
+
+Controller:
+ATmega/AVR
+
+Simulation Suite:
+PSpice
+
+## Block Diagram
+<img width="520" height="450" alt="block diagram" src="Block_diagram/Block_diagram.png" />
 
 ## Control Strategy
-The gate-drivers are connected to a 10V power source seperately. The signal that will be amplified/compressed goes first through the high-drive MOSFET driven by a PWM signal into its gate. Then the signal branches into a second MOSFET that has its gate tied to ground, the other half of the signal goes into a 122uH inductor to stablize the voltage. Finally, the signal will branch again into two MOSFETs both driven by a PWM signal.
+The AVR generates complementary 100 kHz PWM signals with programmable dead time. These PWM signals drive two half-bridge gate-driver ICs powered from a dedicated 10 V supply. The gate drivers switch the four-MOSFET synchronous buck-boost stage while preventing shoot-through. Output voltage is regulated through duty-cycle control, with energy transferred through a 122 µH inductor.
 
 <img width="420" height="450" alt="schematic" src="Simulations/Schematic-5V_to_12V.png" />
 
@@ -28,6 +56,7 @@ Stabilizes in >1.0mS creating a stable 12V boosted output. This has a high effic
 
 
 ## Measured Results
+
 
 
 ## Future Improvements
