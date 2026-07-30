@@ -7,32 +7,52 @@
 • Engineered a 100 kHz complementary PWM control architecture with dead-time insertion for a four-MOSFET synchronous converter, validating gate-drive timing and switching behavior using circuit simulation.
 
 # Specifications
-Input Voltage:
-3.3–5 V
-
-Boost Output:
-12 V
-
-PWM Frequency:
-100 kHz
-
-Inductor:
-122 µH
-
-Peak Output Current:
-4A
-
-Simulated Efficiency:
-96%
-
-Settling Time:
-1.0 ms
-
-Controller:
-ATmega/AVR
-
-Simulation Suite:
-PSpice
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Specification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Input Voltage</strong></td>
+      <td>3.3–5 V</td>
+    </tr>
+    <tr>
+      <td><strong>Boost Output</strong></td>
+      <td>12 V</td>
+    </tr>
+    <tr>
+      <td><strong>PWM Frequency</strong></td>
+      <td>100 kHz</td>
+    </tr>
+    <tr>
+      <td><strong>Inductor</strong></td>
+      <td>122 µH</td>
+    </tr>
+    <tr>
+      <td><strong>Peak Output Current</strong></td>
+      <td>4 A</td>
+    </tr>
+    <tr>
+      <td><strong>Simulated Efficiency</strong></td>
+      <td>96%</td>
+    </tr>
+    <tr>
+      <td><strong>Settling Time</strong></td>
+      <td>1.0 ms</td>
+    </tr>
+    <tr>
+      <td><strong>Controller</strong></td>
+      <td>ATmega/AVR</td>
+    </tr>
+    <tr>
+      <td><strong>Simulation Suite</strong></td>
+      <td>PSpice</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Block Diagram
 <img width="520" height="450" alt="block diagram" src="Block_diagram/Block_diagram.png" />
