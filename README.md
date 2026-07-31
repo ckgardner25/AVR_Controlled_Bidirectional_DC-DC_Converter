@@ -24,6 +24,10 @@
       <td>12 V</td>
     </tr>
     <tr>
+      <td><strong> Thermal Resistance</strong></td>
+      <td>5.89 C</td>
+    </tr>
+    <tr>
       <td><strong>PWM Frequency</strong></td>
       <td>100 kHz</td>
     </tr>
