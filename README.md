@@ -75,7 +75,7 @@ Stabilizes in >1.0mS creating a stable 12V boosted output. This has a high effic
 
 
 ## Measured Results
-
+<img width="300" height="450" alt="unpopulated board" src="Images/buckboost-PCB.png" />
 
 
 ## Future Improvements
