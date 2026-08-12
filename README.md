@@ -22,6 +22,8 @@
     <tr>
       <td><strong>Boost Output</strong></td>
       <td>12 V</td>
+    </tr>
+    <tr>
       <td><strong>PWM Frequency</strong></td>
       <td>100 kHz</td>
     </tr>
